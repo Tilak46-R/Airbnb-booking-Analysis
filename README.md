@@ -1,8 +1,55 @@
 # Airbnb-booking-Analysis
-Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world. Today, Airbnb became one of a kind service that is used and recognized by the whole world. Data analysis on millions of listings provided through Airbnb is a crucial factor for the company.
-These millions of listings generate a lot of data - data that can be analyzed and used for security, business decisions, understanding of customers' and providers' (hosts) behavior and performance on the platform, guiding marketing initiatives, implementation of innovative additional services and much more.
-This dataset has around 49,000 observations in it with 16 columns and it is a mix between categorical and numeric values.Explore and analyze the data to discover key understandings (not limited to these) such as :
-What can we learn about different hosts and areas?
-What can we learn from predictions? (ex: locations, prices, reviews, etc)
-Which hosts are the busiest and why?
-Is there any noticeable difference of traffic among different areas and what could be the reason for it?
+
+This repository contains scripts and notebooks for analyzing Airbnb booking data. The analysis aims to provide insights into booking trends, pricing dynamics, and other relevant metrics for Airbnb hosts and users.
+
+**Table of Contents**
+
+Introduction
+Data Sources
+Analysis Overview
+Repository Structure
+Usage
+Contributing
+License
+
+**Introduction**
+
+Airbnb has become a popular platform for booking accommodations worldwide. Understanding booking patterns, pricing strategies, and factors influencing demand can be beneficial for both hosts and guests. This project aims to explore Airbnb booking data to uncover insights that can help optimize pricing, improve listing performance, and enhance the overall experience for hosts and guests.
+
+**Data Sources**
+
+The analysis utilizes Airbnb booking data obtained from [source]. The dataset includes information such as listing details, booking dates, prices, and guest reviews.
+
+**Analysis Overview**
+
+The analysis covers the following key aspects:
+
+Booking Trends: Examining booking patterns over time, including seasonality and long-term trends.
+Pricing Analysis: Analyzing pricing dynamics, including average prices, price distribution, and factors influencing pricing variations.
+Geographical Insights: Exploring geographical factors influencing booking demand and pricing, such as location popularity and proximity to attractions.
+Guest Reviews: Investigating the relationship between guest reviews, listing quality, and booking performance.
+Predictive Modeling: Developing predictive models to forecast booking demand and optimize pricing strategies.
+
+**Repository Structure**
+
+The repository is organized as follows:
+
+data/: Directory containing Airbnb booking data (not included in the repository due to size limitations).
+notebooks/: Jupyter notebooks containing the analysis code.
+scripts/: Python scripts for data preprocessing, modeling, and visualization.
+README.md: This readme file providing an overview of the project.
+LICENSE: License information for the project.
+
+**Contributing**
+
+Contributions to this project are welcome! If you have any ideas for improvements, feature requests, or bug reports, please open an issue or submit a pull request.
+
+**License**
+
+This project is licensed under the MIT License. Feel free to use the code for your own analysis or modify it according to your needs.
+
+
+
+
+
+
